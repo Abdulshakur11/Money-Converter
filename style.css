@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/mony-img.jpg");
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* display: none; */
+}
+
+.form {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 330px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: tomato;
+  border-radius: 6px 6px 0px 0px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.close {
+  padding-top: 5px;
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.input {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 50px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  border: 1px solid #333;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.select {
+  width: 100px;
+  height: 40px;
+  margin-left: -5px;
+  font-size: 20px;
+  outline: none;  
+  border: 1px solid #333;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.button {
+  position: absolute;
+  right: 30px;
+  padding-top: 6px;
+  background-color: rgb(255, 230, 0);
+  border: 1px solid #333;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.button:active {
+  border-radius: 50px;
+}
+
+.refresh-icon {
+  transition: all 0.3s ease;
+}
+
+.refresh-icon:active {
+  transform: rotate(140deg);
+}
+
+.rusult-wrapper {
+  width: 250px;
+  height: 35px;
+  margin-left: 50px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.rusult {
+  color: #333;
+}
+
+.click-me {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  width: 200px;
+  height: 45px;
+  font-size: 28px;
+  background-color: rgb(255, 196, 0);
+  border: 1px solid #333;
+  z-index: -5;
+  cursor: pointer;
+}
+
+.open{
+  display: block;
+}

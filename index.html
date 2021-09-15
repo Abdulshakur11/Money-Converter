@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Конвертер</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form class="form" action="https://echo.htmlacademy.ru">
+      <div class="title-wrapper">
+        <p class="title">Конвертер</p>
+        <button type="button" class="close">
+          <img src="./images/cancel.svg" alt="close-button" width="13" height="13">
+        </button>
+      </div>
+      <input type="number" class="input">
+      <select class="select">
+        <option value="dollar">Dollar</option>
+        <option value="rubl">Rubl</option>
+        <option value="lira">Lira</option>
+        <option value="euro">Euro</option>
+      </select>
+
+      <button class="button" type="submit">
+        <img class="refresh-icon" src="./images/refresh.svg" alt="refresh-icon" width="28" height="28">
+      </button>
+      <h2 class="rusult-wrapper"><span class="rusult"></span></h2>
+    </form>
+  </div>
+  <button class="click-me">Конвертер</button>
+  <div class="bgcolor"></div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
